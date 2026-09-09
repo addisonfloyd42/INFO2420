@@ -220,11 +220,11 @@ async def main():
                 h_scroll = pickle_list[1]
                 lvl_num = pickle_list[2]
                 deaths = pickle_list[3]
-    #mixer.init()
-    main_song = None
-    #main_song = Sound(os.path.join(DATA_DIR,"Music","background.ogg"),0.35,mixer.Channel(0))
-    #main_song.channel.set_endevent(pygame.USEREVENT)
-    #main_song.play()
+    mixer.init()
+    #main_song = None
+    main_song = Sound(os.path.join(DATA_DIR,"Music","background.ogg"),0.35,mixer.Channel(0))
+    main_song.channel.set_endevent(pygame.USEREVENT)
+    main_song.play()
     start_color = randint(0,359)
     while True:
         await asyncio.sleep(0)
