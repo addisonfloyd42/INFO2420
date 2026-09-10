@@ -1,0 +1,59 @@
+:root
+{
+    --header-color: rgb(171, 171, 171);
+    --header-color-lighter: rgb(200, 200, 200);
+}
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: var(--header-color);
+    padding: auto;
+    align-items: stretch;
+    gap: 0.7vw;
+    justify-content: center;
+}
+
+.header_link 
+{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: var(--header-color);
+    font-size: 1.2vw;
+    border: none;
+    cursor: pointer;
+    padding: 0 1vw;
+    border-radius: 1vw;
+    transition-duration: 0.1s;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_link:hover
+{
+    background-color: var(--header-color-lighter);
+}
+
+#logo
+{
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+    margin: 1vw 2vw;
+    transition-duration: 0.1s;
+}
+
+#logo:hover
+{
+    scale: 1.1;
+}
