@@ -1,0 +1,13 @@
+/*Only used for the root variables for the color palette.*/
+:root
+{
+    --dark-blue: #015B76;
+    --pastel-pink: #DEBAB1;
+    --rose: #CA6378;
+    --dark-rose: #771227;
+    --lighter-green: #bfebb2;
+    --light-green: #569842;
+    --dark-green: #186447;
+    --eggshell: #f6f2e6;
+    --dark-eggshell: #ece6d3;
+}
